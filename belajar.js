@@ -1,0 +1,1 @@
+document.getElementById("nama").innerHTML = "mata kuliah pemograman platform internal";

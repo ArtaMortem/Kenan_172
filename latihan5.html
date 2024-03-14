@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar javascript platform</title>
+</head>
+<body>
+    <h1>tipe data pada javascript</h1>
+    <div id="hasilangka"></div>
+    <div id="hasilkalimat"></div>
+    <div id="hasilhewan"></div>
+    <div id="hasilmanusia"></div>
+    <script>
+        var angka = 80;
+        var kalimat = "Ayo belajar javascript";
+        var hewan = ["kambing", "bebek", "ayam"];
+        var manusia = {
+            nama : "budi",
+            alamat : "Yogyakarta",
+            umur : 20,
+            pekerjaan : "Mahasiswa"
+        };
+
+        document.getElementById("hasilangka").innerHTML = angka;
+        document.getElementById("hasilkalimat").innerHTML = kalimat;
+        document.getElementById("hasilhewan").innerHTML = hewan[1];
+        document.getElementById("hasilmanusia").innerHTML = manusia.nama + " tinggal di " + manusia.alamat + 
+        ". Dia sekarang berumur " + manusia.umur + " dan bekerja sebagai " + manusia.pekerjaan;
+    </script>
+</body>
+</html>
